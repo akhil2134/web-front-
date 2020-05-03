@@ -1,0 +1,28 @@
+<html>
+
+        <script>
+            function f(){
+                alert(1);
+                alert(2);
+                var q = f1();
+                alert(4);
+                alert(5);
+            }
+
+            function f1(){
+                alert(6);
+                alert(7);
+                var p = f2(5);
+                alert(9);
+                var p = f2(6);
+                return p;
+            }
+            function f2(a){
+               alert(2*a) ;
+                return (a*a);
+            }
+                f2(f1());
+                
+        </script>
+   
+</html>

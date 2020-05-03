@@ -1,0 +1,26 @@
+<html>
+<script>
+        function fun()
+        {
+            alert(1);
+            alert(2);
+            var p = fun2(5)
+             alert(3);
+             alert(4);
+             var q = fun2(p);
+             alert(q);
+        }
+        alert(2);
+        alert(3);
+        function fun2(a)
+        {
+            alert(a*2);
+            return a*3;
+        }
+        alert(7);
+        alert(8);
+        fun();
+        fun2(9);
+
+</script>
+</html>

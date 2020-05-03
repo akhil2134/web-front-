@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    @font-face {
+  font-family: jh;
+  src: url(aclonica.ttf);
+}
+    .carousel-inner > .carousel-item{
+      height: 600px;
+      width: 100%;
+    }
+    
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-danger navbar-dark " style="padding: 20px;">
+    <!-- Brand/logo -->
+    <a class="navbar-brand " href="#" style="font-family: jh; ">EL-CAMINO </a>
+    
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">GALLERY</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT US</a>
+      </li>
+    </ul>
+  </nav>
+  <section class="slides">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+      </ul>
+    
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active" >
+          <img src="cafe1.jpg"  alt="Los Angeles" width="100%" height="100%">
+        </div>
+        <div class="carousel-item">
+          <img src="cafe2.jpg" alt="Chicago" height="100%" width="100%">
+        </div>
+        <div class="carousel-item">
+          <img src="cafe3.jpg" alt="New York" height="100%" width="100%">
+        </div>
+        <div class="carousel-item">
+          <img src="cafe4.jpg" alt="Mumbai" height="100%" width="100%">
+        </div>
+      </div>
+    
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+  <section class="container-fluid">
+    <h1 style="text-align: center; margin-top: 20px; text-decoration:solid; font-family: jh;"> Services..!</h1>
+    <div class="card-deck" style="margin-top: 30px;">
+      <div class="card bg-primary">
+        <div class="card-body text-center">
+          <p class="card-text"><img src="cafe1.jpg" class="rounded" height="200px" width="100%" style="margin-bottom: 20px;"> <br><h4>text inside the first card Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis, dolore pariatur molestias maiores officiis eius quas earum accusamus sit, minima neque vel fugit modi. Doloremque maxime molestias quia reprehenderit?</h4></p>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-body text-center">
+          <p class="card-text"><img src="cafe2.jpg" class="rounded" height="200px" width="100%" style="margin-bottom: 20px;"> <br><h4>Some text inside the second card Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ipsa delectus quos esse ducimus porro ad excepturi perspiciatis perferendis asperiores et placeat quaerat debitis assumenda voluptas iste sapiente, culpa neque?</h4></p>
+        </div>
+      </div>
+      <div class="card bg-success">
+        <div class="card-body text-center">
+          <p class="card-text"><img src="cafe3.jpg" class="rounded" height="200px" width="100%" style="margin-bottom: 20px;"> <br><h4>Some text inside the third card Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ducimus vitae doloribus atque inventore corrupti esse nemo vel sint saepe. Maxime fugiat, cupiditate iure molestias voluptate saepe facilis odio architecto</h4>.</p>
+        </div>
+      </div>
+      <div class="card bg-danger">
+        <div class="card-body text-center">
+          <p class="card-text"><img src="cafe4.jpg" class="rounded" height="200px" width="100%" style="margin-bottom: 20px;"> <br><h4>Some text inside the third card Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ducimus vitae doloribus atque inventore corrupti esse nemo vel sint saepe. Maxime fugiat, cupiditate iure molestias voluptate saepe facilis odio architecto</h4></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid">
+    <div class="row" style="margin-top: 50px;">
+      <div class="col-4"></div>
+      <div class="col-4">.col</div>
+      <div class="col-4">.col</div>
+    </div>
+  </section>
+</body>
+</html>

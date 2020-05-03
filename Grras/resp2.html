@@ -1,0 +1,98 @@
+<html>
+    <style>
+        .parent{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+        }
+/* .one{
+    box-sizing: border-box;
+    background-color: gray;
+    color: black;
+    float: left;
+    height: 40%;
+    width: 40%;
+    text-align: left;
+    font-size: 30px;
+    border-radius: 20px;
+
+}
+.two{
+height: 40%;
+width: 40%;
+float: left;
+background-color: cornflowerblue;
+border-radius: 20px;
+
+}
+.two img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.three{
+    height: 40%;
+width: 50%;
+display: none;
+} */
+
+.one{
+        width: 45%;
+        height: 300px;
+        background-color: red;
+}
+.two{
+        width: 45%;
+        height: 300px;
+        background-color: green;
+}
+
+
+.three{
+    display: none;
+    width: 50%;
+    height: 300px;
+    background-color: red;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+.one{
+        display: none;
+     
+}
+.two{
+        width: 100%;
+        height: 300px;
+        background-color: green;
+}
+
+
+.three
+{
+    display: block;
+    margin-top:10px ;
+    width: 100%;
+        height: 300px;
+        background-color: red;
+
+}
+
+}
+    </style>
+    <body>33
+        <div class="parent">
+            <div class="one">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Quo iusto in labore molestiae quos totam nisi, <br>explicabo fugit repudiandae dolorum corporis, placeat ipsam amet aut numquam! <br> Ullam molestias unde pariatur.</p>
+            </div>
+            <div class="two">
+                <img src="img1.jpg" height="100%" width="100%" alt="image">
+            </div>
+            <div class="three">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>Facilis quo rerum quae alias facere sint quaerat nemo aperiam,<br> consequuntur deleniti consectetur repellat architecto adipisci et,<br> ducimus asperiores omnis cumque nostrum?</p>
+            </div>
+        </div>
+    </body>
+</html>
